@@ -27,6 +27,22 @@ go.work.sum
 # env file
 .env
 
+# Binary do projeto
+stream-pac
+
 # Editor/IDE
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+__debug_bin*
